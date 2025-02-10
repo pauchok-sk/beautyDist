@@ -357,7 +357,7 @@
               <button
                 class="button button--blue"
                 data-fancybox
-                data-src="#modalOrder"
+                data-src="#modalDefault-2"
               >
                 Связаться с менеджером
               </button>
@@ -623,7 +623,7 @@
     <div class="income__head mb-5">
       <h2 class="h3 income__title text-uppercase mb-4">
         <strong>Зарабатывайте от 2,9 млн руб в год</strong> на лазерной эпиляции
-        с аппаратом In-Motion
+        с аппаратом <span>In-Motion</span>
       </h2>
       <div class="income__content">
         <p>
@@ -651,11 +651,12 @@
           >или всего за <strong>187 дней</strong></span
         >
         <button
-          class="button button--blue mt-3 md:mt-5"
+          class="button button--blue mt-3 md:mt-5 income__btn-calc"
           data-fancybox
           data-src="#modalOrder"
         >
-          Посчитать окупаемость для меня
+          <span>Посчитать окупаемость для меня</span>
+          <span>Посчитать окупаемость</span>
         </button>
       </div>
     </div>
@@ -776,44 +777,6 @@
     </h2>
     <div class="swiper details__slider">
       <div class="swiper-wrapper">
-        <article class="swiper-slide details__article">
-          <img
-            src="img/details.jpg"
-            alt="image"
-            class="details__article-img mb-3"
-          />
-          <h5 class="h5 details__article-title mb-2 text-uppercase">
-            Немецкий излучатель Limo
-          </h5>
-          <p class="details__artilce-content">
-            Лазер высокой мощности с ресурсом излучателя на 30 млн. импульсов.
-            In-Motion D1™ имеет оптимальные технические характеристики. Энергия
-            равномерно распределяется по всей поверхности апертуры, что
-            гарантирует лучший результат.  Длительность импульса 2 ~ 220 мс.
-            (это наиболее эффективные параметры, подробнее об этом в
-            <a href="#">нашем блоге</a> и  в расширенной теории селективного
-            фототермолиза).  
-          </p>
-        </article>
-        <article class="swiper-slide details__article">
-          <img
-            src="img/details.jpg"
-            alt="image"
-            class="details__article-img mb-3"
-          />
-          <h5 class="h5 details__article-title mb-2 text-uppercase">
-            Немецкий излучатель Limo
-          </h5>
-          <p class="details__artilce-content">
-            Лазер высокой мощности с ресурсом излучателя на 30 млн. импульсов.
-            In-Motion D1™ имеет оптимальные технические характеристики. Энергия
-            равномерно распределяется по всей поверхности апертуры, что
-            гарантирует лучший результат.  Длительность импульса 2 ~ 220 мс.
-            (это наиболее эффективные параметры, подробнее об этом в
-            <a href="#">нашем блоге</a> и  в расширенной теории селективного
-            фототермолиза).  
-          </p>
-        </article>
         <article class="swiper-slide details__article">
           <img
             src="img/details.jpg"
@@ -1093,40 +1056,6 @@
     </h2>
     <div class="swiper hair-removal__slider">
       <div class="swiper-wrapper">
-        <article class="swiper-slide">
-          <img
-            src="img/hair-removel.jpg"
-            alt="image"
-            class="hair-removal__slide-img mb-3"
-          />
-          <div class="hair-removal__slide-body">
-            <h5 class="h5 hair-removal__slide-title text-uppercase mb-2">
-              понятный интерфейс
-            </h5>
-            <p class="hair-removal__content">
-              Интуитивно понятный интерфейс на русском языке и автоматические
-              настройки не дадут совершить ошибку и гарантируют отличный
-              результат даже у начинающего специалиста
-            </p>
-          </div>
-        </article>
-        <article class="swiper-slide">
-          <img
-            src="img/hair-removel.jpg"
-            alt="image"
-            class="hair-removal__slide-img mb-3"
-          />
-          <div class="hair-removal__slide-body">
-            <h5 class="h5 hair-removal__slide-title text-uppercase mb-2">
-              понятный интерфейс
-            </h5>
-            <p class="hair-removal__content">
-              Интуитивно понятный интерфейс на русском языке и автоматические
-              настройки не дадут совершить ошибку и гарантируют отличный
-              результат даже у начинающего специалиста
-            </p>
-          </div>
-        </article>
         <article class="swiper-slide">
           <img
             src="img/hair-removel.jpg"
@@ -2497,7 +2426,7 @@
       <div class="get__info">
         <ul class="get__list d-flex flex-column mb-5 gap-5">
           <li>
-            <h4 text-uppercase class="h4 text-uppercase mb-2 mb-lg-4 ">Аренда</h4 text-uppercase>
+            <h4 class="h4 text-uppercase mb-2 mb-lg-4">Аренда</h4>
             <p class="get__list-content">
               Оборудование предоставляется в аренду с возможностью выкупа.
               Арендаторы получают обучение, техническую поддержку и доставку
@@ -2506,14 +2435,14 @@
             </p>
           </li>
           <li>
-            <h4 text-uppercase class="h4 text-uppercase mb-2 mb-lg-4 ">Рассрочка</h4 text-uppercase>
+            <h4 class="h4 text-uppercase mb-2 mb-lg-4">Рассрочка</h4>
             <p class="get__list-content">
               Вносите 50% аванса, а оставшуюся сумму погашаете равными
               платежами. Подробные условия уточняйте у наших менеджеров.
             </p>
           </li>
           <li>
-            <h4 text-uppercase class="h4 text-uppercase mb-2 mb-lg-4 ">Лизинг</h4 text-uppercase>
+            <h4 class="h4 text-uppercase mb-2 mb-lg-4">Лизинг</h4>
             <p class="get__list-content">
               Вы получаете оборудование в лизинг с возможностью его полного
               выкупа по завершению договора, что выгодно для бизнеса с
@@ -2521,18 +2450,18 @@
             </p>
           </li>
           <li>
-            <h4 text-uppercase class="h4 text-uppercase mb-2 mb-lg-4 ">Трейд-ин</h4 text-uppercase>
+            <h4 class="h4 text-uppercase mb-2 mb-lg-4">Трейд-ин</h4>
             <p class="get__list-content">
               Обновите оборудование, сдав аппарат In-Motion более раннего года
               выпуска в зачет, и получите скидку на покупку нового аппарата.
             </p>
           </li>
         </ul>
-        <a href="#" class="button button--blue get__button"
-          >Узнать подробнее о способах оплаты</a
-        >
+        <button data-fancybox data-src="#modalCallMe" class="button button--blue get__button">
+          Узнать подробнее о способах оплаты
+        </button>
       </div>
-      <img src="img/get.jpg" alt="image" class="get__img">
+      <img src="img/get.jpg" alt="image" class="get__img" />
     </div>
   </div>
 </section>
@@ -2614,7 +2543,7 @@
     <p class="documents__content mx-auto">
       Будьте внимательны! Сертификат соответствия не является разрешительной документацией и для законной деятельности требуется Регистрационное удостоверение.
     </p>
-    <button data-fancybox data-src="#modalOrder" class="button button--blue mx-auto">Заказать консультацию</button>
+    <button data-fancybox data-src="#modalDefault-2" class="button button--blue mx-auto">Заказать консультацию</button>
   </div>
 </section>
         <section class="sect pt-0 pb-4 advSect">
@@ -3741,6 +3670,105 @@
   </div>
 </div>
 
+<div class="modal modalDefault p-0" id="modalDefault-2">
+  <button data-fancybox-close class="f-button is-close-btn" title="Close">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" tabindex="-1">
+      <path d="M20 20L4 4m16 0L4 20"></path>
+    </svg>
+  </button>
+
+  <div class="d-flex modalHelpW">
+    <div class="modalHelpContent bg--black">
+      <h2 class="h3 color--white text-uppercase mb-4">
+        Нужна помощь с выбором оборудования?
+      </h2>
+      <p class="modalDescr color--white mb-4 pb-2">
+        Оставьте свой номер, и мы перезвоним в течение 15 минут, чтобы ответить на ваши вопросы
+      </p>
+
+      <form class="modalForm" action="#">
+        <div class="inputW">
+          <input
+            type="tel"
+            class="formInput formInput--bg-white-005"
+            id="modalHelpPhone"
+            placeholder="+7 (____) ___ __-__"
+          />
+        </div>
+
+        <div class="agreement mt-4">
+          <input
+            type="checkbox"
+            class="checkboxInput"
+            id="catalogGet_form-2"
+            checked
+          />
+          <label class="checkboxLabel align-items-start" for="catalogGet_form-2">
+            <span class="rect rect--gray2"></span>
+            <div class="agreementText text--sm" style="max-width: 325px">
+              Соглашаюсь на
+              <a href="#" target="_blank">обработку персональных данных</a>
+            </div>
+          </label>
+        </div>
+
+        <button
+          class="button button--blue formBtn width-sm-100 text-nowrap mt-4"
+        >
+          Скачать каталог
+        </button>
+      </form>
+    </div>
+    <img
+      src="img/equipment.jpg"
+      alt="image"
+      class="modalHelpImg d-none d-lg-block"
+    />
+  </div>
+</div>
+
+<div class="modal modalCatalog bg--black" id="modalCallMe">
+  <button data-fancybox-close class="f-button is-close-btn" title="Close">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" tabindex="-1">
+      <path d="M20 20L4 4m16 0L4 20"></path>
+    </svg>
+  </button>
+
+  <div class="modalContent">
+    <div class="mb-3 pb-1">
+      <h3 class="h3 mb-0 fw-bold text-uppercase text--white text-start">
+        Перезвоните мне
+      </h3>
+      <p class="modalDescr text-white pb-2">
+        Наш менеджер свяжется с Вами в течение часа для консультации
+      </p>
+    </div>
+
+    <div class="inputW">
+      <input
+        type="tel"
+        class="formInput formInput--bg-white-005"
+        placeholder="Ваш телефон"
+      />
+    </div>
+    <div class="agreement mt-4">
+      <input
+        type="checkbox"
+        class="checkboxInput"
+        id="modalCallMeCheck"
+        checked
+      />
+      <label class="checkboxLabel align-items-start" for="modalCallMeCheck">
+        <span class="rect rect--gray2 position-static"></span>
+        <div class="agreementText text--sm text--white">
+          Соглашаюсь на
+          <a href="#" target="_blank">обработку персональных данных</a>
+        </div>
+      </label>
+    </div>
+    <button class="button button--blue mt-4 w-100">Отправить</button>
+  </div>
+</div>
     </div>
 
     <script src="js/app.min.js"></script>

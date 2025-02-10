@@ -22268,7 +22268,7 @@ h6--sm-h4,
 }
 @media (max-width: 991px) {
   .intro-lend {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
   }
 }
 .intro-lend__head {
@@ -22881,6 +22881,11 @@ h6--sm-h4,
   text-align: center;
   max-width: 900px;
 }
+@media (max-width: 439px) {
+  .income__title span {
+    display: block;
+  }
+}
 .income__content {
   font-size: 16px;
   line-height: 24px;
@@ -23201,6 +23206,20 @@ h6--sm-h4,
     font-size: 20px;
     margin-top: 40px;
     line-height: 30px;
+  }
+}
+.income__btn-calc span:first-child {
+  display: block;
+}
+.income__btn-calc span:last-child {
+  display: none;
+}
+@media (max-width: 575px) {
+  .income__btn-calc span:first-child {
+    display: none;
+  }
+  .income__btn-calc span:last-child {
+    display: block;
   }
 }
 
@@ -24150,10 +24169,24 @@ h6--sm-h4,
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.r-choice__col p {
+.r-choice__col._first-title p:first-child {
+  font-size: 20px;
+  line-height: 30px;
+}
+.r-choice__col a {
+  display: block;
+  color: var(--blue);
+  text-decoration: underline;
+}
+@media (any-hover: hover) {
+  .r-choice__col a:hover {
+    text-decoration: none;
+  }
+}
+.r-choice__col p, .r-choice__col a {
   margin: 0;
 }
-.r-choice__col p:not(:last-child) {
+.r-choice__col p:not(:last-child), .r-choice__col a:not(:last-child) {
   margin-bottom: 20px;
 }
 .r-choice__col table {
@@ -24193,6 +24226,18 @@ h6--sm-h4,
   }
   .r-choice__col td:nth-child(2) {
     padding-left: 15px;
+  }
+}
+.r-choice__img {
+  width: 100%;
+  grid-column: 12 span;
+  min-height: 310px;
+  object-fit: cover;
+  object-position: right;
+}
+@media (max-width: 1199px) {
+  .r-choice__img {
+    grid-column: 6 span;
   }
 }
 
