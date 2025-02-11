@@ -23720,6 +23720,9 @@ h6--sm-h4,
   .videos__title {
     margin-bottom: 40px;
   }
+  .videos__title span {
+    display: block;
+  }
 }
 .videos__slider {
   margin-bottom: 60px;
