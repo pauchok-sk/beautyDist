@@ -24691,6 +24691,17 @@ h6--sm-h4,
     text-align: center;
   }
 }
+.get__button span:last-child {
+  display: none;
+}
+@media (max-width: 575px) {
+  .get__button span:first-child {
+    display: none;
+  }
+  .get__button span:last-child {
+    display: block;
+  }
+}
 .get__img {
   width: calc(50% - 18px);
   aspect-ratio: 1/1;
